@@ -26,7 +26,7 @@ AstroPlusPlus {
                   | numeral                                                    --num
                   | id                                                         --id
                   | "(" Exp ")"                                                --parens
-    relop         = "<=" | "<" | "==" | ">" | ">="
+    relop         = "<=" | "<" | "==" | "!=" | ">=" | ">" 
     numeral       = digit+ ("." digit+)? (("E" | "e") ("+" | "-")? digit+)?
     print         = "print" ~idchar
     while         = "while" ~idchar
